@@ -1,0 +1,10 @@
+services:
+  backend:
+    container_name: 'docker-php-apache'
+    build:
+      context: .
+    restart: always
+    ports:
+      - '8088:80'
+    volumes:
+      - './app:/var/www/html/'

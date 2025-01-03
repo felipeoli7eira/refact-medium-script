@@ -1,0 +1,7 @@
+<?php
+
+require __DIR__ . '/index.php';
+
+if (getopt('f:')) {
+    Importer::import(getopt('f:')['f']);
+}
