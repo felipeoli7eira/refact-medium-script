@@ -1,3 +1,6 @@
+Medium post: https://medium.com/@erlandmuchasaj/php-dynamic-method-calling-3c5dfbe816a2
+
+
 docker exec -it docker-php-apache bash
 
 
